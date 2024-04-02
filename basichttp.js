@@ -13,3 +13,5 @@ http.createServer(function (req, res) {
   var txt = que.tahun + ": {" + isi + "}";
   res.end(txt); //menampilkan data di html page
 }).listen(8080); //inisiasi port yang digunakan
+
+//http://localhost:8080/?tahun=(tahun)&daya=(daya)
